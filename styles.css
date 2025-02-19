@@ -2,12 +2,14 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url('background.jpg');
-    background-size: cover;
+    background-image: url('background.jpg'); /* Arka plan resmi */
+    background-size: cover; /* Tam ekranı kaplasın */
+    background-position: center; /* Ortada hizala */
+    background-repeat: no-repeat; /* Tekrar etmesin */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    height: 100vh; /* Tüm ekran yüksekliği */
 }
 .container {
     text-align: center;
