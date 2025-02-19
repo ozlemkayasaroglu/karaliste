@@ -36,7 +36,7 @@ document.querySelector('.close-button').addEventListener('click', function() {
 });
 
 document.getElementById('share-button').addEventListener('click', function() {
- const message = document.getElementById('popup-message').innerText;
- const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}%20@oguzbor%20aracılığıyla\nhttps://oguzbor.github.io/karaliste`;
- window.open(url, '_blank');
+    const message = document.getElementById('popup-message').innerText;
+    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}%20@oguzbor%20aracılığıyla\n https://oguzbor.github.io/karaliste`;
+    window.open(url, '_blank');
 });
