@@ -37,6 +37,7 @@ document.querySelector('.close-button').addEventListener('click', function() {
 
 document.getElementById('share-button').addEventListener('click', function() {
     const message = document.getElementById('popup-message').innerText;
-    const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(message)}%20@oguzbor%20aracılığıyla\n https://oguzbor.github.io/karaliste`;
+    const tweetText = `${message} %0A%0A@oguzbor aracılığıyla %0Ahttps://oguzbor.github.io/karaliste`;
+    const url = `https://twitter.com/intent/tweet?text=${tweetText}`;
     window.open(url, '_blank');
 });
