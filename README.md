@@ -2,6 +2,10 @@
 
 Bu proje, kullanıcıların ad soyad bilgilerini girerek kara listede olup olmadıklarını kontrol etmelerini sağlayan eğlenceli bir web uygulamasıdır. X'te çıkan kavgaları sonlandırmayı amaçlamaktadır.
 
+## Kontrol için aşağıdaki adresi ziyaret edebilirsiniz.
+
+https://oguzbor.github.io/karaliste/
+
 ## Kullanılan Teknolojiler
 
 - HTML
